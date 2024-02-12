@@ -1,0 +1,471 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header {
+    background-color: #46476e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+h1{
+    font-size: 30px;
+}
+nav ul {
+    font-size: 20px;
+    list-style: square;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}   
+
+nav ul li a:hover {
+    color: #ff4500
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #424276;
+    padding: 10px;
+    width: 200px;
+}
+
+.dropdown-menu li {
+    display: block;
+    margin: 5px 0;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#contenido {
+    width: 100%;
+    padding: 20px 0 20px 0 ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#contenido img{
+    height: auto;
+    width: 55%;
+    max-width: 100%;
+}
+
+#contenido h2{ 
+    margin: 0 auto;
+}
+
+#contenido p{
+    font-weight: bold;
+}
+
+
+#image {
+    background-color: #484971;
+    width: 100%;
+    padding: 20px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#image .image {
+    display: flex;
+    align-items: start ; 
+    justify-content: left; 
+    margin-left: 50px;
+}
+
+.image img {
+    justify-content: left;
+    height: auto;
+    width: 35%; 
+    max-width: 100%;
+    margin-right: 100px; 
+}
+
+.image p {
+    font-size: 25px;
+    text-align: left; 
+}
+
+#image img{
+    transition: .5s;
+}
+
+#image img:hover{
+    border: transparent;
+    border-radius: 60%;
+}
+
+#image h2{
+    font-size: 50px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: inline-block; 
+}
+#image p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#platos {
+    background: url("../img/luces-que-ambientan-el.jpg");
+    width: 100%;
+    height: 120vh;
+    padding: 20px 0 0px 0 ;
+    background-size: cover;
+    background-position: center;
+}
+
+#platos h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+#platos .fila {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#platos h3 {
+    position: relative;
+    color: #fee4e4;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    bottom: 150px; 
+    font-weight: bold;
+}
+
+#platos .col-dest img {
+    height: 200px;
+    width: auto;
+    border-radius: 90px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#platos .col-dest img:hover {
+    transform: rotate(360deg);
+}
+
+
+
+
+#selvatico {
+    background-color: #484971;
+    width: 100%;
+    padding: 20px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.selvatico {
+    display: flex;
+    align-items: start ; 
+    justify-content: left; 
+    margin-left: 50px;
+}
+
+.selvatico img {
+    justify-content: left;
+    height: auto;
+    width: 45%; 
+    max-width: 100%;
+    margin-right: 100px; 
+}
+
+.selvatico p {
+    font-size: 25px;
+    text-align: left; 
+}
+
+#selvatico h2{
+    font-size: 40px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: inline-block; 
+}
+#selvatico p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#selvatico img{
+    transition: .5s;
+}
+
+#selvatico img:hover{
+    border: transparent;
+    border-radius: 60%;
+}
+
+#selva {
+    background: url("../img/caption\ \(1\).jpg");
+    width: 100%;
+    height: 150vh;
+    padding: 20px 0 0px 0 ;
+    background-size: cover;
+    background-position: center;
+}
+
+#selva h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#selva .fila {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#selva h3 {
+    position: relative;
+    color: #000000;
+    font-size: 30   px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    bottom: 150px; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#selva .col-dest img {
+    height: 250px;
+    width: auto;
+    border-radius: 90px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#selva .col-dest img:hover {
+    transform: rotate(360deg);
+}
+
+
+
+#cuerdo {
+    background-color: #484971;
+    width: 100%;
+    padding: 20px 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cuerdo {
+    display: flex;
+    align-items: start ; 
+    justify-content: left; 
+    margin-left: 50px;
+}
+
+.cuerdo img {
+    justify-content: left;
+    height: auto;
+    width: 45%; 
+    max-width: 100%;
+    margin-right: 100px; 
+}
+
+.cuerdo p {
+    font-size: 25px;
+    text-align: left; 
+}
+
+#cuerdo h2{
+    font-size: 40px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: inline-block; 
+}
+#cuerdo p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#cuerdo img{
+    transition: .5s;
+}
+
+#cuerdo img:hover{
+    border: transparent;
+    border-radius: 60%;
+}
+
+#cue {
+    background: url("../img/cuerdo2.jpg");
+    width: 100%;
+    height: 130vh;
+    padding: 20px 0 20px 0 ;
+    background-size: cover;
+    background-position: center;
+}
+
+#cue h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#cue .fila {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#cue .col-dest img {
+    height: 250px;
+    width: auto;
+    border-radius: 90px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#cue .col-dest img:hover {
+    scale: 1.5;
+}
+
+
+footer{
+    background: #000;
+    text-align: center;
+    padding: 5px; 
+
+}
+
+footer p{
+    padding: 10px;
+    color: #fff;
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  header nav{ 
+    display: block;
+    text-align: center;
+    width: 96%;
+  }
+  header ul{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .fila {
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+#platos {
+    width: 100%;
+    height: 200vh;
+    padding: 20px 0 0px 0 ;
+    background-size: cover;
+    background-position: center;
+}
+
+#selva {
+    width: 100%;
+    height: 200vh;
+    padding: 20px 0 0px 0 ;
+    background-size: cover;
+    background-position: center;
+}
+
+#cue {
+    width: 100%;
+    height: 180vh;
+    padding: 20px 0 0px 0 ;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-dest {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.col-dest img {
+    width: 100%; 
+}
+
+  #selva .fila{
+    display: block;
+  }
+
+
+}
+#image .image {
+    display: block;
+}
+
+#selvatico .selvatico {
+    display: block;
+}
+
+#cuerdo .cuerdo {
+    display: block;
+}
